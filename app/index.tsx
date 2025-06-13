@@ -28,11 +28,11 @@ const pins: Pin[] = [
   { id: '6', title: 'The Bahamas', image: require('../assets/images/The Bahamas.jpg'), height: 300 },
   { id: '7', title: 'Malta CoastLines ', image: require('../assets/images/Malta.jpg'), height: 290 },
   { id: '8', title: 'Las Vegas', image: require('../assets/images/Las Vegas.jpg'), height: 250 },
-  { id: '9', title: 'Venice', image: require('../assets/images/Venice.jpg'), height: 310 },
+  { id: '9', title: 'Venice the river city', image: require('../assets/images/Venice.jpg'), height: 310 },
   { id: '10', title: 'Lake Louise', image: require('../assets/images/Lake Lousie.jpg'), height: 330 },
   { id: '11', title: 'Times Square', image: require('../assets/images/Times Square.jpg'), height: 260 },
   { id: '12', title: 'Banff-Alberta', image: require('../assets/images/banff.jpg'), height: 320 },
-  { id: '13', title: 'Greece', image: require('../assets/images/Greece.jpg'), height: 310 },
+  { id: '13', title: 'Greece Overview', image: require('../assets/images/Greece.jpg'), height: 310 },
 ];
 
 export default function App() {
