@@ -20,7 +20,7 @@ type Pin = {
 };
 
 const pins: Pin[] = [
-  { id: '1', title: 'Calgary View', image: require('../assets/images/calgary.jpg'), height: 230 },
+  { id: '1', title: 'Calgary Views', image: require('../assets/images/calgary.jpg'), height: 230 },
   { id: '2', title: 'Italy Streets', image: require('../assets/images/italy.jpg'), height: 300 },
   { id: '3', title: 'Sicily Coast', image: require('../assets/images/sicily.jpg'), height: 200 },
   { id: '4', title: 'Spain Culture', image: require('../assets/images/spain.jpg'), height: 270 },
@@ -31,7 +31,7 @@ const pins: Pin[] = [
   { id: '9', title: 'Venice the river city', image: require('../assets/images/Venice.jpg'), height: 310 },
   { id: '10', title: 'Lake Louise', image: require('../assets/images/Lake Lousie.jpg'), height: 330 },
   { id: '11', title: 'Times Square', image: require('../assets/images/Times Square.jpg'), height: 260 },
-  { id: '12', title: 'Banff-Alberta', image: require('../assets/images/banff.jpg'), height: 320 },
+  { id: '12', title: 'Banff-Alberta roam', image: require('../assets/images/banff.jpg'), height: 320 },
   { id: '13', title: 'Greece Overview', image: require('../assets/images/Greece.jpg'), height: 310 },
 ];
 
@@ -94,7 +94,7 @@ export default function App() {
       <View style={styles.bottomNav}>
         <TouchableOpacity style={styles.navItem}>
           <Ionicons name="logo-pinterest" size={24} color="black" />
-          <Text style={styles.navLabel}>Home</Text>
+          <Text style={styles.navLabel}>Home Page</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.navItem}>
           <Ionicons name="people-outline" size={24} color="#000" />
@@ -106,7 +106,7 @@ export default function App() {
         </TouchableOpacity>
         <TouchableOpacity style={styles.navItem}>
           <Ionicons name="person-circle-outline" size={24} color="#000" />
-          <Text style={styles.navLabel}>Saved</Text>
+          <Text style={styles.navLabel}>Saved Data</Text>
         </TouchableOpacity>
       </View>
 
